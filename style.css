@@ -1,0 +1,677 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    margin:0px;
+}
+#page{
+    width:90%;
+    margin:auto;
+    /* border:2px solid black; */
+}
+header{
+    height: 54px;
+    display: flex;
+
+}
+header a img{
+    width:108px;
+    padding:15px 10px;
+    /* border: 2px solid black; */
+}
+.display{
+    display: none;
+}
+ nav{
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 92%; */
+}
+
+header ul{
+    /* border: black solid 2px; */
+    list-style:none;
+    display: flex;
+    padding:0px;
+    margin:0px;
+}
+nav a{
+    text-decoration: none;
+    color:black;   
+    padding: 17px 10px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.microsoft a{
+    display:flex;
+    padding:17px 10px; 
+}
+#allmicrosoft{
+    margin-left: auto;
+}
+.microsoft a:hover span{
+    text-decoration: underline;
+}
+nav ul a:hover span{
+border-bottom: 3px solid black;
+}
+nav div a:hover span{
+    text-decoration: underline;
+}
+header div{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.none{
+    display:none;
+}
+.para{
+    height: 40px;
+    background-color: #0067B8;
+    color: white;
+    /* border: 2px solid black; */
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.para:hover span{
+    text-decoration: underline;
+    margin-right: 10px;
+    margin-left:10px;
+    transition: 0.3 ease;
+}
+.img{
+    background-image: url(img/RWKCAD.webp);
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.box{
+    height: auto;
+    width:410px;
+    margin-left: 80px;
+}
+.shop-now{
+    background-color: black;
+    color:white;
+    padding: 10px;  
+    width: 90px;
+    float:left;
+    text-align: center;
+
+}
+.shop-now:hover span{
+    margin-right: 10px;
+    transition: 0.3s ease;
+    text-decoration: underline;
+    text-align: left;
+}
+.new{
+    background-color: rgba(243, 200, 61, 0.993);
+    color: black;
+    padding: 10px;
+    font-weight: 30px;
+    width: fit-content;
+}
+.offers{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 140px;
+    align-items: center;
+    margin: 40px;
+}
+.offers a{
+    text-align:center;
+    color:black;
+    width: 120px;
+}
+.offers a:hover{
+    text-decoration: underline;
+}
+.boxs{
+    width: 23%;
+    height: 400px;
+}
+.boxs img{
+    width:100%;
+}
+.services{
+    display:flex;
+    justify-content: space-around;
+}
+
+.shop{
+    color: #0067B8;
+    width: 150px;
+    float:left;
+}
+.shop:hover span{
+    text-decoration: underline;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+.headphones{
+    position: relative;
+    height:550px ;
+    
+}
+.imgHeadphones{
+    background-image: url(img/RE4D5uF.webp);
+    background-size: 100% 100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 90px;
+}
+.imgg{
+width: 100%;
+}
+.content2{
+
+    width: 500px;
+}
+.shop2{
+    color: #950c17;
+
+}
+.shop2:hover span{
+    text-decoration: underline;
+    margin-right: 5px;
+    transition: 0.3s ease;   
+}
+
+.covid{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    height: 125px;
+    padding-top: 8px;
+    padding-bottom:30px ;
+}
+.game{
+    height: 500px;
+    margin-bottom: 90px;
+}
+.imgGame{
+    background-image: url(img/RE4Gs2M.webp);
+    background-size: 100% 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+.game .learnmore{
+    padding: 10px;
+    background-color: white;
+    width: 100px;
+    float:left;
+
+}
+.learnmore:hover span{
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+    transition: 0.3s ease;
+ 
+}
+.contentt .learnmore:hover{
+    background-color: rgb(252, 247, 247);
+}
+
+.game .contentt{
+    padding-left:50% ;
+    padding-top: 3%;
+    color: white;
+    width: 50%;
+}
+.follow{
+    display:flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+footer ul li{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+footer{
+    background-color: rgb(238, 235, 235);
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.info ul{
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+
+}
+
+.info .contenthead{
+    font-size:20px
+}
+.info .head{
+    display: flex;
+    flex-direction: column;
+ }
+ .lang{
+     display: flex;
+     justify-content: space-between;
+ }
+ .lang ul{
+     display: flex;
+ }
+ .lang ul li{
+    padding-left: 10px;
+ }
+ .center{
+     width: 90%;
+     margin: auto;
+     padding-top: 30px;
+ }
+ .lang a:hover span{
+     text-decoration: underline ;
+ }
+ .headphones .shop-surface{
+
+    background-color: black;
+    color:white;
+    padding: 10px;  
+    width: 170px;
+    display:block;
+    text-align:center;
+ }
+ 
+ .shop-surface:hover span{
+     text-decoration: underline;
+     margin-right: 10px;
+     transition: 0.3s ease;
+     text-align:left;
+ }
+ .fa-facebook-square{
+     color: #425daa;
+ }
+ .fa-twitter-square{
+     color:#55acee;
+ }
+ .fa-linkedin{
+     color:#0177b5;
+ }
+@media(max-width:1082px){
+  #page{
+      width: 100%;
+  }
+  nav div span{
+        display: none;
+  }
+
+  .microsoft:not(#allmicrosoft) span{
+    display: none;
+}
+
+  nav div .allm{
+      display: flex;
+  }
+  .offers{
+      overflow:hidden;
+  }
+   .services{
+    flex-wrap:wrap;
+}
+.boxs{
+    width:45%;
+    height: 500px;
+}
+.img{
+    background-size: 100% 100%;
+}
+.game{
+    height: 400px;
+}
+
+.info{
+    flex-wrap:wrap;
+}
+.info ul{
+    width: 33%;
+    height: 300px;
+}
+.lang {
+    font-size: 12px;
+}
+.forbusiness{
+    margin-left: 28px;
+}
+}
+@media screen and (max-width:857px){
+        #page{
+            width: 100%;
+        }
+        nav{
+            display: none;
+        }
+        #allmicrosoft{
+            display: none;
+        }
+        .microsoft span{
+            display: none;
+        }
+        .display{
+            display: flex;
+            align-items: center;
+        }
+
+        #search{
+            order:2;
+        }
+        .display{
+            order:1;
+        }
+        #cart{
+            order:4;
+        }
+        #signup{
+            order:5;
+        }
+        header .icon{
+            order:3;
+            margin:auto;
+        }
+        .none:not(.imgGame .none){
+            display: block;
+            width: 100%;
+        }
+        .shop-now{
+            float:none;
+        }
+        .img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background:rgb(236, 235, 235);
+            height:auto;
+        }
+        .box{
+            padding: 50px 0px;
+            margin:0px;
+            width: 100%;
+        }
+        .content2{
+            padding: 50px 0px;
+            margin:0px;
+        }
+        .headphones{
+            height: auto;
+        }
+        .imgHeadphones{
+            background: rgb(224, 223, 223);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            /* height: 750px; */
+            padding: 0px;
+        }
+        .headphones .shop-surface{
+            display:inline-block;
+        }
+        .lang {
+            font-size: 12px;
+        }
+        .lang ul{
+            flex-wrap: wrap;
+        }
+
+
+}
+@media (max-width:535px){
+    #page{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    #allmicrosoft{
+        display: none;
+    }
+
+    .microsoft span{
+        display: none;
+    }
+    .display{
+        display: flex;
+        align-items: center;
+    }
+
+    #search{
+        order:2;
+    }
+    .display{
+        order:1;
+    }
+    #cart{
+        order:4;
+    }
+    #signup{
+        order:5;
+    }
+    header .icon{
+        order:3;
+        margin:auto;
+    }
+    .none{
+        display: block;
+        width: 100%;
+    }
+    .shop-now{
+        float:none;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background:rgb(236, 235, 235);
+        height:auto;
+    }
+    .offers {
+        display: flex   ;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-content: flex-start;
+       align-items: center;
+       margin: 0px;
+       height: auto;
+
+    }
+    .offers a{
+        text-align: left;
+        width: 100%;
+        margin: 10px;
+            }
+    .offers a img{
+        height: 20px;
+        width: 20px;
+    }
+    .offers a div{
+        display:inline-block;
+    }
+    .imgHeadphones .content2 p{
+        width: auto;
+
+    }
+    .box{
+        padding: 50px 0px;
+        margin:0px;
+        width: 100%;
+    }
+    .content2{
+        padding: 22px 0px;
+        margin:0px;
+    }
+    .headphones{
+        display: flex;
+    }
+    .imgHeadphones{
+        background: rgb(224, 223, 223);
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        
+    }
+    .content2{
+        width: 100%;
+    }
+    
+    .headphones .shop-surface{
+        display:inline-block;
+    }
+    .boxs{
+        width: 90%;
+        margin: 0% 5%;
+        height: auto;
+        padding-top: 12px ;
+        margin-left: 13%;
+
+    }
+    .covid{
+        height: auto;
+    }
+    .game{
+        margin: 0px;
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .imgGame .none{
+            height: 250px;
+    }
+    .imgGame{
+        background: rgb(82, 82, 82);
+    }
+    .game .contentt{
+        width: auto;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .stillWhite{
+        background-color:white;
+    }
+    .boxs img{
+        width: 90%;
+    }
+  
+     .info ul{
+        width: 100%;
+    }
+
+    .lang {
+        font-size: 12px;
+        flex-wrap: wrap;
+       
+    }
+    .lang ul{
+            flex-wrap: wrap; margin: 0px;
+            padding: 0px;
+    }
+    .forbusiness{
+        padding: 8%;
+    }
+
+
+}
+  /* #page{
+        width: 100%;
+    }
+
+    header .icon{
+        width: 55%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul{
+        display: none;
+    }
+    nav div span{
+        display: none;
+    }
+    nav{
+        width: 45%;
+        justify-content: flex-end;
+    }
+    .none{
+        display: none;
+    }
+    .img{
+        background-size: 1100px 550px;
+    }
+    .services{
+        flex-wrap:wrap;
+    }
+    .boxs{
+        width: 350px;
+        height: 450px;
+    }
+    .boxs img{
+        width: 350px;
+    }
+    .info{
+        flex-wrap:wrap;
+    }
+    .info ul{
+        width: 250px;
+        height: 300px;
+    }
+    .lang {
+        font-size: 12px;
+    }
+    .display{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        width: 30px;
+        margin: 10px;
+    }
+    .headphones{
+        height: 400px;
+    }
+    .content2{
+        top:10%;
+    }
+    .game{
+        height: 400px;
+    }
+    .game .contentt{
+        top: 20%;
+        left: 30%;
+    }
+    .follow{
+        margin-bottom: 30px;
+    }
+ */
